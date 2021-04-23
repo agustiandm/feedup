@@ -1,0 +1,6 @@
+framework module Pods_feedup {
+  umbrella header "Pods-feedup-umbrella.h"
+
+  export *
+  module * { export * }
+}

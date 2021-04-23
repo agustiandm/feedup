@@ -10,7 +10,6 @@
 		528F8ED52632F4C8007FB95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F8ED42632F4C8007FB95C /* AppDelegate.swift */; };
 		528F8ED72632F4C8007FB95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F8ED62632F4C8007FB95C /* SceneDelegate.swift */; };
 		528F8ED92632F4C8007FB95C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F8ED82632F4C8007FB95C /* ViewController.swift */; };
-		528F8EDC2632F4C8007FB95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F8EDA2632F4C8007FB95C /* Main.storyboard */; };
 		528F8EDE2632F4CB007FB95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528F8EDD2632F4CB007FB95C /* Assets.xcassets */; };
 		528F8EE12632F4CB007FB95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F8EDF2632F4CB007FB95C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		528F8ED42632F4C8007FB95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528F8ED62632F4C8007FB95C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		528F8ED82632F4C8007FB95C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		528F8EDB2632F4C8007FB95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528F8EDD2632F4CB007FB95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528F8EE02632F4CB007FB95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528F8EE22632F4CB007FB95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				528F8ED42632F4C8007FB95C /* AppDelegate.swift */,
 				528F8ED62632F4C8007FB95C /* SceneDelegate.swift */,
 				528F8ED82632F4C8007FB95C /* ViewController.swift */,
-				528F8EDA2632F4C8007FB95C /* Main.storyboard */,
 				528F8EDD2632F4CB007FB95C /* Assets.xcassets */,
 				528F8EDF2632F4CB007FB95C /* LaunchScreen.storyboard */,
 				528F8EE22632F4CB007FB95C /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				528F8EE12632F4CB007FB95C /* LaunchScreen.storyboard in Resources */,
 				528F8EDE2632F4CB007FB95C /* Assets.xcassets in Resources */,
-				528F8EDC2632F4C8007FB95C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		528F8EDA2632F4C8007FB95C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				528F8EDB2632F4C8007FB95C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		528F8EDF2632F4CB007FB95C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BLXFF54X7S;
 				INFOPLIST_FILE = feedup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mydm.feedup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BLXFF54X7S;
 				INFOPLIST_FILE = feedup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mydm.feedup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
